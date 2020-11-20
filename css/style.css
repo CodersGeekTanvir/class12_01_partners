@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width:100% ; 
+ }
+
+
+
+.navbar-brand img{
+    height: 35px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #5F67FF;
+}
+
+.search_icon {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #5F67FF;
+    transition-duration: 0.3s;
+}
+.search_icon:hover{
+    background-color: #5F67FF;
+    color: #fff;
+}
+.header_button{
+
+    padding: 0 25px;
+}
+.header_button a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 24px;
+    background-color: #5F67FF;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+.header_button a:hover {
+    background-color: #464CC5;
+}
+/* Why Us Starts*/
+.why_us{
+
+    padding: 80px 0;
+}
+.why_us h2{
+
+    padding: 23px 115px;
+    background-color: #5F67FF;
+    display: inline-block;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+}
+.why_us h1{
+
+    color: #5F67FF;
+    padding: 30px 0;
+    font-weight: 700;
+    font-size: 60px;
+}
+.why_us p{
+
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: #333333;
+}
+.box{
+
+    padding: 0 5px;
+}
+.box .content {
+    padding: 0px 34px 10px;
+    box-shadow: -1px 15px 20px 0px #d4e6e2ba;
+}
+.box .content img{
+
+}
+.box .content h4{
+
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.box .content p {
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Why Us Ends*/
+
+/* Join Us Starts*/
+
+.join_us {
+    padding: 50px 0 100px 0;
+}
+
+.join_us_left{
+
+}
+
+.join_us_left .box{
+
+}
+.join_us_left .box .content{
+
+}
+.join_us_left .box .content .join_us_img {
+    padding: 30px 0px;
+}
+
+.join_us_right{
+
+}
+.join_us_right .box{
+    
+}
+.join_us_right .box .content{
+    
+    padding: 50px 40px;
+}
+.join_us_right .box .content h3{
+    
+    color: #5F67FF;
+    font-weight: 600;
+    font-size: 35px;
+}
+.join_us_right .box .content h5{
+    
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.join_us_right .box .content p{
+    
+}
+/* Join Us Ends*/
+
+.our_partner{
+    
+}
+.our_partner h3 {
+    color: #5F67FF;
+    text-align: right;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+/* Partners Starts */
+.partners{
+
+}
+.sponsors {
+    padding: 15px 5px;
+}
+.sponsors hr{
+
+    height: 6px;
+    color: #5F67FF;
+    opacity: 1;
+}
+.sponsors .sponsors_image{
+
+    box-shadow: -1px 15px 20px 0px #d4e6e2ba;
+    padding: 40px 0;
+}
+.sponsors_image img {
+    height: 42px;
+}
+.sponsors_content{
+
+}
+.sponsors_content h3{
+
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 35px 0 5px 0;
+}
+.sponsors_content p{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* Partners Ends */
+
+
+/* Apply for Partnere  Starts */
+
+.apply{
+
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+.apply h3{
+    
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 60px;
+}
+.apply_box{
+
+    padding: 0 10px;
+}
+
+.apply_box h1{
+
+    color: #5F67FF;
+    font-weight: 600;
+    font-size: 90px;
+}
+.apply_box h4{
+
+    color: #333;
+    font-size: 23px;
+    font-weight: 700;
+}
+.apply_box p{
+
+    font-size: 14px;
+    color: #666;
+    padding-top: 10px;
+}
+
+.apply_button{
+
+    text-align: center;
+    padding-top: 50px;
+}
+.apply_button a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 24px;
+    background-color: #5F67FF;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+.apply_button a:hover{
+    background-color: #464CC5;
+}
+/* Apply for Partnere  Ends */
+
+/*Footer Starts */
+footer{
+    padding-top: 85px;
+    padding-bottom: 30px;
+    background-color: #333333;
+}
+footer .footer_contact {
+    padding-bottom: 60px;
+}
+footer ul{
+
+    list-style: none;
+}
+footer ul li{
+
+    padding: 10px 0;
+}
+footer ul li h1{
+
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+footer ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition-duration: 0.3s;
+}
+footer ul li a:hover{
+
+    color: #b1b1b1;
+}
+
+footer hr {
+    color: #fff;
+}
+.footer_copyright{
+
+}
+.footer_copyright p {
+    color: #fff;
+}
+/*Footer Ends- */
