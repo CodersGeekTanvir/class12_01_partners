@@ -57,6 +57,9 @@
         padding-bottom: 26px;
         
     }
+    .box .content {
+        box-shadow: 0px 10px 13px 0px #d4e6e2ba;
+    }
 
     .our_partner h3 {
         font-size: 50px;
@@ -90,9 +93,35 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+    .why_us h2 {
+        padding: 17px 59px;
+        font-size: 38px;
+       
+    }
+    .why_us h1 {
+        font-size: 41px;
+    }
+    .box .content {
+        box-shadow: 0px 10px 13px 0px #d4e6e2ba;
+    }
+    .our_partner h3 {
+        font-size: 40px;
+    }
+    .apply h3 {
+        font-weight: 600;
+        font-size: 34px;
+        padding-bottom: 50px;
+    }
+    .apply_button a {
+        padding: 8px 18px;
+       
+    }
     .small_txt_center{
         text-align: center;
     }
+
+
  }
 
 
